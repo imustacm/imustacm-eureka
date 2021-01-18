@@ -1,5 +1,8 @@
-## config file ##
+### Config file ###
 application.yml
+
+### Log file ###
+*.log
 
 /target/
 !.mvn/wrapper/maven-wrapper.jar
