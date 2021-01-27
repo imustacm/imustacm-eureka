@@ -11,5 +11,5 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@localhost:${server.port}/eureka
+      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@backend-eureka:${server.port}/eureka
 
