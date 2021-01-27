@@ -2,6 +2,8 @@ server:
   port: 6868
 
 spring:
+  application:
+    name: imustacm-eureka
   security:
     user:
       name: [name]
